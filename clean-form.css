@@ -1,0 +1,98 @@
+.clean-form {
+	position:relative;
+	max-width:34rem;
+	margin:0.5em auto 1em auto;
+	padding:1em 0 2em 0;
+	border-top:1px solid rgba(0,0,0,0.1)
+}
+@media (min-width: 940px) {white
+	.clean-form {
+		margin-left:2em;
+		padding:0;
+		border:0
+	}
+	.clean-form:before {
+		-webkit-transform:rotate(30deg);
+		-moz-transform:rotate(30deg);
+		-ms-transform:rotate(30deg);
+		transform:rotate(30deg);
+		background:url(https://3.basecamp-static.com/bcxhq/assets/landing/signup-pointer-039d16b5a48576c24e766245c999e9918300715e90d988b8d9c14b20ab8eaf08.svg) bottom left no-repeat;
+		background-size:100%;
+		content:'';
+		position:absolute;
+		display:block;
+		width:2rem;
+		height:3.5rem;
+		top:-2em;
+		left:78%
+	}
+}
+.clean-form .button {
+	min-width:100% !important
+}
+.clean-form .break {
+	margin:1em 0
+}
+.clean-form .break span {
+	font-family:"HCo Ideal Sans SSm", "Helvetica", "Lucida Grande", sans-serif;
+	background:#fff
+}
+.clean-form--lockup {
+	-webkit-box-shadow:0 2px 10px 0 rgba(0,0,0,0.15);
+	-moz-box-shadow:0 2px 10px 0 rgba(0,0,0,0.15);
+	-o-box-shadow:0 2px 10px 0 rgba(0,0,0,0.15);
+	box-shadow:0 2px 10px 0 rgba(0,0,0,0.15);
+	border-radius:0.5em;
+	padding:1em;
+	margin-top:2em;
+	background-color:#fbf7f0;
+	border:1px solid #d8c6a6
+}
+@media (min-width: 940px) {
+	.clean-form--lockup {
+		float:right;
+		width:30rem;
+		margin-top:-0.5em
+	}
+	.clean-form--lockup:before {
+		display:none
+	}
+}
+.clean-form--lockup h2 {
+	margin:0 0 1em 0;
+	font-family:"HCo Sentinel SSm", Times, "Times New Roman", serif;
+	font-size:2.1rem
+}
+.clean-form--card {
+	max-width:50rem;
+	margin:2em auto 3em auto;
+	padding:1em 0 0 0
+}
+@media (min-width: 940px) {
+	.clean-form--card {
+		-webkit-box-shadow:0 2px 10px 0 rgba(0,0,0,0.1);
+		-moz-box-shadow:0 2px 10px 0 rgba(0,0,0,0.1);
+		-o-box-shadow:0 2px 10px 0 rgba(0,0,0,0.1);
+		box-shadow:0 2px 10px 0 rgba(0,0,0,0.1);
+		max-width:40rem;
+		border-radius:0.5em;
+		padding:0.25em;
+		margin:1.5em auto 1em auto;
+		background-color:rgba(216,198,166,0.5)
+	}
+	.clean-form--card .clean-form--card-content {
+		border-radius:0.3em;
+		padding:1em;
+		background-color:#fff
+	}
+	.clean-form--card:before {
+		-webkit-transform:rotate(-60deg);
+		-moz-transform:rotate(-60deg);
+		-ms-transform:rotate(-60deg);
+		transform:rotate(-60deg);
+		width:2.5rem;
+		height:4rem;
+		top:2rem;
+		left:-6rem
+	}
+}
